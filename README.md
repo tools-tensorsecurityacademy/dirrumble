@@ -25,3 +25,16 @@ Perfect for penetration testing, bug bounty, red teaming, and WAF bypass researc
 - Disable Content-Length, custom Connection header, malformed header support
 - Built-in Tensor Security Academy User-Agent and branding
 - Zero external dependencies — single static binary
+
+### Installation
+#### Option 1: Install directly (recommended)
+```
+go install github.com/tools-tensorsecurityacademy/dirrumble/cmd/dirrumble@latest
+```
+#### Option 2: Build from source
+```
+git clone https://github.com/tools-tensorsecurityacademy/dirrumble.git
+cd dirrumble
+go build -ldflags="-s -w" -o dirrumble ./cmd/dirrumble
+sudo mv dirrumble /usr/local/bin/
+```
