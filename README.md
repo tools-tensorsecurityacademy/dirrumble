@@ -1,5 +1,6 @@
 # DirRumble v0.1
 ### Tensor Security Academy • Developed by Team Alpha
+```
    _____  _        _____             _     
   |  __ \| |      |  __ \           | |    
   | |  | | |      | |__) |___  _ __ | | __ 
@@ -7,7 +8,8 @@
   | |__| | |____  | | \ \ (_) | |_) |   <  
   |_____/|______| |_|  \_\___/| .__/|_|\_\ 
                                | |         
-                               |_|         
+                               |_|
+```      
 
 ***Fast • Raw • Unfiltered***
 A modern, high-performance HTTP directory and fuzzing tool written in Go. Inspired by FFUF and UFF, DirRumble removes all automatic normalization from the Go HTTP client — giving you full control over every byte sent to the target.
